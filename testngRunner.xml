@@ -1,0 +1,11 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="XML Suite">
+    <test name="Multiple Runner">
+        <classes>
+            <class name="selenuim_class.ActionPractice.ActionIntro"></class>
+            <class name="selenuim_class.AlertPractice.AlertTest"></class>
+            <class name="selenuim_class.Sentrifugo.Tests.LoginTest"></class>
+        </classes>
+    </test>
+</suite>
